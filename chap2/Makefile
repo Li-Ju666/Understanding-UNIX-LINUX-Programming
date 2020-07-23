@@ -9,3 +9,6 @@ who01: my_who01.c
 
 copy: copy01.c
 	gcc copy01.c -o copy
+
+logout: logout.c
+	gcc logout.c -o my_logout
