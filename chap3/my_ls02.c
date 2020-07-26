@@ -32,8 +32,8 @@ void do_ls(char* dir_name){
 
 int main(int argc, char** argv){
     if(argc < 2){
-	    printf("Usage: my_ls directory_to_be_explored \n"); 
-	    return 0;  
+	    do_ls(".");  
+        return 0;  
     }
     
     do_ls(argv[1]);
